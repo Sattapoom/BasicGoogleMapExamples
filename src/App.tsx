@@ -42,9 +42,9 @@ function Layout() {
                 <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex1">Ex1 Display basic map</Link></li>
                 <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex2">Ex2 Pinning</Link></li>
                 <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex3">Ex3 Place suggestion</Link></li>
-                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex4">Ex5 Basic routing</Link></li>
-                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex5">Ex6 Clustering</Link></li>
-                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex6">Ex7 Best route calculate</Link></li>
+                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex4">Ex4 Basic routing</Link></li>
+                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex5">Ex5 Clustering</Link></li>
+                <li className="mb-2 transition-transform transform origin-left hover:scale-125"><Link to="/ex6">Ex6 Best route calculate</Link></li>
               </ul>
             </div>
           </div>
