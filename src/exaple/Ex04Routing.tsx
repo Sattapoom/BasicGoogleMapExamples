@@ -1,7 +1,7 @@
 import { Map, useMap, useMapsLibrary } from "@vis.gl/react-google-maps";
 import { useEffect, useState } from "react";
 
-export default function Ex05Routing() {
+export default function Ex04Routing() {
   const position = { lat: 13.75, lng: 100.55 };
   const zoomLv = 11;
   return (
@@ -41,6 +41,7 @@ const Directions = () => {
         travelMode: google.maps.TravelMode.DRIVING,
         // travelMode: "TWO_WHEELER" as google.maps.TravelMode,
         provideRouteAlternatives: true,
+        waypoints: [{ location: { lat: 13.75006678298309, lng: 100.52825053410282 } }]
       })
       .then((resp) => {
 

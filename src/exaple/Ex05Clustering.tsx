@@ -1,6 +1,6 @@
 import { Map } from "@vis.gl/react-google-maps";
 
-export default function Ex06Clustering() {
+export default function Ex05Clustering() {
   const position = { lat: 13.75, lng: 100.55 };
   const zoomLv = 11;
   return (
