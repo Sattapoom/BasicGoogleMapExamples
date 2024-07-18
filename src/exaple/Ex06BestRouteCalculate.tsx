@@ -201,21 +201,6 @@ const Pins = ({
             </AdvancedMarker>
           );
         })}
-      {LocationsForCal.map(({ location: pos, cluster }, index) => {
-        return (
-          <AdvancedMarker key={index} position={pos}>
-            <div
-              className={`flex justify-center items-center rounded-full ${cluster
-                ? "bg-sky-500 border-sky-900"
-                : "bg-green-500 border-green-900"
-                } border-2 w-8 h-8 z-10`}
-            >
-              <div className="text-xl">{index + 1}</div>
-            </div>
-          </AdvancedMarker>
-
-        );
-      })}
     </>
   );
 };
